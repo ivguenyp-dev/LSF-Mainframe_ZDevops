@@ -1312,6 +1312,4 @@ Plus de gens connaissent JCL = Plus de gens peuvent décrocher des jobs stables 
 
 ---
 
-*Créé avec ❤️ par des passionnés de mainframe qui croient que l'éducation tech élite devrait être accessible à tous, partout, gratuitement.*
-
 **FIN DU README - DÉBUT DE TON AVENTURE JCL** 🚀✨

@@ -1,29 +1,28 @@
-# JCL - Job Control Language : Guide Complet du Débutant à l'Expert
-Le cours JCL le plus détaillé et accessible au monde - De zéro à héros en JCL mainframe !
+# DevOps pour Mainframe : Guide Complet du Débutant à l'Expert
+Le cours DevOps Mainframe le plus détaillé et accessible au monde - De zéro à héros en DevOps z/OS !
 
-![JCL Status](https://img.shields.io/badge/JCL-Complete-brightgreen) ![Gratuit](https://img.shields.io/badge/Prix-Gratuit-blue) ![Niveau](https://img.shields.io/badge/Niveau-Débutant→Expert-orange)
+![DevOps](https://img.shields.io/badge/DevOps-Mainframe-brightgreen) ![Gratuit](https://img.shields.io/badge/Prix-Gratuit-blue) ![Niveau](https://img.shields.io/badge/Niveau-Débutant→Expert-orange)
 
 ---
 
 ## 🎯 À Propos de Ce Cours
 
-Ce cours est **LE guide le plus complet et détaillé** pour apprendre JCL de A à Z. Conçu pour les **débutants absolus** qui veulent devenir **experts en production mainframe**, il explique **VRAIMENT tout**, sans rien laisser au hasard.
+Ce cours est **LE guide le plus complet et détaillé** pour implémenter DevOps sur mainframe z/OS. Conçu pour **développeurs, opérateurs, et tech leads** qui veulent **moderniser les pratiques mainframe**, il explique **VRAIMENT tout**, sans rien laisser au hasard.
 
-**JCL** (Job Control Language) est le langage qui contrôle l'exécution des programmes sur mainframe z/OS. Si tu veux travailler dans une **banque**, une **assurance**, ou toute **grande entreprise** avec des systèmes mainframe, **JCL est OBLIGATOIRE**.
+**DevOps Mainframe** = Apporter la vitesse et l'automatisation du DevOps moderne aux systèmes mainframe, tout en gardant la stabilité et la fiabilité qui font leur réputation depuis 60+ ans.
 
 ---
 
 ## 🌟 Ce Qui Rend Ce Cours Unique
 
-✅ **100-120 heures** de contenu ultra-détaillé  
-✅ Explication de **CHAQUE concept** (pas de raccourcis)  
-✅ **200+ exemples** de JCL commentés ligne par ligne  
-✅ **50+ exercices pratiques** avec solutions détaillées  
-✅ **20+ jobs de production réels** (banque, assurance)  
-✅ Parfait pour **autodidactes** : tout est expliqué  
-✅ Contexte **mainframe réel** (pas de théorie inutile)  
+✅ **80-100 heures** de contenu ultra-détaillé  
+✅ Explication de **CHAQUE outil** (Git, Jenkins, Zowe, DBB, etc.)  
+✅ **150+ exemples** de code commentés (Groovy, Bash, JCL, YAML)  
+✅ **30+ scripts production-ready** (CI/CD, tests, déploiement)  
+✅ **Pipeline complet** de A à Z (DEV → TEST → PROD)  
+✅ Cas réels de **banques et assurances**  
 ✅ **100% gratuit** et open-source  
-✅ Maintenance active et mises à jour régulières  
+✅ Focus sur la **vraie production** (pas de théorie inutile)  
 
 ---
 
@@ -31,13 +30,12 @@ Ce cours est **LE guide le plus complet et détaillé** pour apprendre JCL de A 
 
 | Aspect | Détail |
 |--------|--------|
-| **Parties** | 4 parties progressives (1-2-3A-3B-4A-4B) |
-| **Chapitres** | 25 chapitres détaillés |
-| **Pages** | 600+ pages de contenu |
-| **Exemples** | 200+ jobs complets |
-| **Exercices** | 50+ exercices guidés |
-| **Jobs Réels** | 20+ exemples de production bancaire |
-| **Durée totale** | 100-120 heures |
+| **Chapitres** | 12 chapitres détaillés |
+| **Pages** | 400+ pages de contenu |
+| **Exemples** | 150+ scripts complets |
+| **Outils couverts** | 20+ outils DevOps |
+| **Pipelines** | 10+ pipelines complets |
+| **Durée totale** | 80-100 heures |
 | **Niveau** | Débutant → Expert Production |
 
 ---
@@ -46,379 +44,288 @@ Ce cours est **LE guide le plus complet et détaillé** pour apprendre JCL de A 
 
 ### ✅ Parfait Pour :
 
-- **Débutants complets** en JCL (aucune connaissance requise)
-- **Développeurs COBOL** voulant maîtriser le JCL
-- **Étudiants** en informatique ou reconversion professionnelle
-- **Opérateurs mainframe** voulant comprendre les jobs
-- **Tech leads** gérant des équipes mainframe
-- **Professionnels** travaillant en banque/assurance
-- **Autodidactes** aimant les explications détaillées
+- **Développeurs mainframe** (COBOL, PL/I, JCL) voulant moderniser
+- **Opérateurs z/OS** voulant automatiser
+- **Tech Leads** implémentant DevOps sur mainframe
+- **DevOps Engineers** découvrant le mainframe
+- **Managers IT** planifiant la transformation
+- **Étudiants** en informatique ou reconversion
+- **Consultants** travaillant sur migration mainframe
 
 ---
 
 ## 📋 Prérequis
 
-### Obligatoires (Très Peu !)
+### Obligatoires
 
-✅ Savoir utiliser un ordinateur  
-✅ Comprendre l'anglais basique (mots-clés JCL)  
-✅ Capacité de lecture et compréhension  
+✅ Connaissances **COBOL de base** (ou autre langage mainframe)  
+✅ Connaissances **JCL de base**  
+✅ Comprendre les concepts **Git** (commit, push, branch)  
+✅ Utiliser le **terminal/ligne de commande**  
 
-### Recommandés (Mais Pas Obligatoires)
+### Recommandés
 
-🟡 Bases de COBOL (aide mais pas obligatoire)  
-🟡 Logique algorithmique basique  
-🟡 Compréhension des fichiers/datasets  
+🟡 Expérience avec un **outil CI/CD** (Jenkins, GitLab CI, etc.)  
+🟡 Bases **Linux/Unix**  
+🟡 Notions de **scripting** (Bash, Python)  
+🟡 Expérience **mainframe production**  
 
-### 💡 Si tu n'as AUCUNE de ces compétences, tu peux quand même suivre !
+### 💡 Si tu manques certains prérequis
 
-Le cours explique **tout depuis zéro**, y compris les concepts de base du mainframe.
+Le cours explique les bases nécessaires, mais tu devras peut-être consulter nos guides COBOL et JCL en parallèle.
 
 ---
 
 ## 📚 Structure Complète du Cours
 
-### 📘 Partie 1 : Fondamentaux JCL (20-25h)
+### 📘 Partie 1 : Introduction et Fondamentaux (15-20h)
 
-**Fichier :** `jcl-guide-partie1-chap1-6.md`
+#### Chapitre 1 : Introduction au DevOps Mainframe
+- Qu'est-ce que le DevOps Mainframe ?
+- Pourquoi DevOps est CRITIQUE en 2024 ?
+- Les enjeux business (vitesse, qualité, coûts)
+- Les défis spécifiques mainframe
+- Culture vs tooling
+- Salaires et opportunités ($90K-$180K)
 
-**Chapitres 1-6**
+#### Chapitre 2 : Architecture et Composants
+- Environnements z/OS (DEV, INT, PREP, PROD)
+- Stack technique moderne
+- Gestion de version (Git, Endevor)
+- CI/CD tools (Jenkins, GitLab CI, UrbanCode)
+- Testing frameworks
+- Monitoring (Splunk, ELK, Instana)
 
-#### 1. Introduction au JCL
-- Qu'est-ce que JCL ?
-- Pourquoi JCL est CRITIQUE en 2024 ?
-- Le marché JCL (salaires $80K-$150K)
-- JCL dans les banques et assurances
-- Carrières possibles avec JCL
-- Le mythe du "langage obsolète"
-
-#### 2. Concepts de Base Mainframe
-- Qu'est-ce qu'un mainframe ?
-- z/OS et ses composants
-- TSO/ISPF (interface utilisateur)
-- Datasets et fichiers
-- JES2/JES3 (Job Entry Subsystem)
-- SPOOL et job output
-
-#### 3. Structure d'un Job JCL
-- Les 3 statements obligatoires (JOB, EXEC, DD)
-- Format des cartes JCL
-- Colonnes et syntaxe
-- Commentaires
-- Continuation de lignes
-- Premier job "Hello World"
-- Conventions de nommage
-
-#### 4. JOB Statement en Détail
-- Syntaxe complète
-- Accounting information
-- Programmer name
-- CLASS (priorité du job)
-- MSGCLASS (output destination)
-- MSGLEVEL (niveau de messages)
-- NOTIFY (notifications)
-- REGION (mémoire allouée)
-- TIME (temps maximum)
-- Exemples complets
-
-#### 5. EXEC Statement en Détail
-- EXEC PGM (exécuter un programme)
-- EXEC PROC (exécuter une procédure)
-- PARM (paramètres au programme)
-- COND (conditional execution)
-- REGION pour le step
-- TIME pour le step
-- Stepname et conventions
-
-#### 6. DD Statement - Les Bases
-- Qu'est-ce qu'un DD (Data Definition) ?
-- DSN (Dataset Name)
-- DISP (Disposition)
-- UNIT (device type)
-- SPACE (allocation d'espace)
-- DCB (Data Control Block)
-- DD * (inline data)
-- DD DUMMY (fichier vide)
+#### Chapitre 3 : Mise en Place du Pipeline CI/CD
+- Structurer le repository Git
+- Conversion EBCDIC ↔ UTF-8
+- Build automatisé avec IBM DBB
+- Upload sources vers z/OS
+- Gestion des datasets
+- Premier pipeline Jenkins
 
 **🎯 Objectifs Partie 1 :**
-
-- Comprendre l'écosystème mainframe et JCL
-- Écrire des jobs JCL simples fonctionnels
-- Maîtriser les 3 statements principaux
-- Allouer et gérer des datasets
-- Soumettre et monitorer des jobs
+- Comprendre l'écosystème DevOps mainframe
+- Installer et configurer les outils de base
+- Créer un premier pipeline simple
+- Automatiser build et déploiement
 
 ---
 
-### 📗 Partie 2 : JCL Intermédiaire (25-30h)
+### 📗 Partie 2 : Pipeline CI/CD Complet (25-30h)
 
-**Fichier :** `jcl-guide-partie2-chap7-12.md`
+#### Chapitre 4 : Build Automatisé avec IBM DBB
+- Qu'est-ce que DBB ?
+- Dependency scanning
+- Incremental builds
+- Scripts Groovy complets
+- MVSExec pour compilation
+- Link-edit automatique
+- Gestion d'erreurs
+- Build reports
 
-**Chapitres 7-12**
+#### Chapitre 5 : Pipeline Jenkins Production-Ready
+- Jenkinsfile complet
+- Multi-stages (Checkout, Build, Test, Deploy)
+- Credentials management
+- Environment variables
+- Conditional execution
+- Parallel stages
+- Post-build actions
+- Notifications (Slack, email)
 
-#### 7. DD Statement Avancé
-- Tous les paramètres DD
-- DCB complet (RECFM, LRECL, BLKSIZE)
-- UNIT en détail
-- VOL (volume)
-- LABEL (fichiers sur bande)
-- AMP (VSAM parameters)
-- Référence backward/forward
-- DD concatenation
-
-#### 8. DISP - Disposition en Profondeur
-- DISP=(status, normal-termination, abnormal-termination)
-- NEW, OLD, SHR, MOD
-- KEEP, CATLG, DELETE, PASS
-- Toutes les combinaisons
-- Erreurs courantes avec DISP
-- Best practices
-
-#### 9. Génération de Données (GDG)
-- Qu'est-ce qu'un GDG ?
-- Création de base GDG
-- Référence absolue vs relative
-- (+1), (0), (-1), (-2)...
-- IDCAMS pour GDG
-- Gestion des générations
-- Backup strategies avec GDG
-- Exemples de production
-
-#### 10. Conditional Processing
-- COND parameter
-- Codes de retour (RC)
-- IF/THEN/ELSE/ENDIF
-- Opérateurs (EQ, NE, GT, LT, etc.)
-- AND, OR, NOT
-- COND dans JOB vs EXEC
-- Exemples complexes
-- Error handling
-
-#### 11. Procédures (PROCS)
-- Qu'est-ce qu'une PROC ?
-- PROC statement
-- Procédures inline vs cataloguées
-- Paramètres symboliques (&PARM)
-- Override de DD statements
-- SET statement
-- JCLLIB (bibliothèque de PROCS)
-- Création de PROCS réutilisables
-
-#### 12. Utilitaires IBM - Partie 1
-- IEBGENER (copy datasets)
-- IEBCOPY (copy PDS members)
-- IEBPTPCH (print/punch)
-- IEFBR14 (allocation/deletion)
-- Exemples pratiques de chaque
-- Cas d'usage en production
+#### Chapitre 6 : Intégration Continue
+- Git workflow (GitFlow, trunk-based)
+- Pull requests et code reviews
+- Branch protection
+- Automated merges
+- Version tagging
+- Changelog automation
+- Release notes
 
 **🎯 Objectifs Partie 2 :**
-
-- Maîtriser TOUS les paramètres DD
-- Gérer des GDG (backup, rotation)
-- Créer des jobs conditionnels complexes
-- Écrire des procédures réutilisables
-- Utiliser les utilitaires IBM courants
+- Créer un pipeline CI/CD complet
+- Automatiser tout le workflow de dev
+- Gérer les branches et versions
+- Déployer automatiquement en DEV/TEST
 
 ---
 
-### 📙 Partie 3A : Utilitaires Avancés (20-25h)
+### 📙 Partie 3 : Tests Automatisés (20-25h)
 
-**Fichier :** `jcl-guide-partie3a-chap13-14.md`
+#### Chapitre 7 : Tests Unitaires
+- Framework COBOLUnit
+- Structure de tests
+- Mocking et stubs
+- Test runners
+- Coverage reports
+- JUnit integration
+- Exemples complets COBOL
 
-**Chapitres 13-14**
+#### Chapitre 8 : Tests d'Intégration
+- Tests CICS avec Zowe CLI
+- Tests DB2
+- Tests de fichiers
+- Tests de flux complets
+- Scripts Bash pour automation
+- Validation de résultats
+- Reporting
 
-#### 13. SORT/DFSORT - Le Roi des Utilitaires
-- Introduction à SORT
-- SORT FIELDS (clés de tri)
-- INCLUDE/OMIT (filtrer records)
-- INREC/OUTREC (reformater)
-- BUILD (construire records)
-- IFTHEN (conditional processing)
-- SUM (agrégation)
-- MERGE (fusionner fichiers)
-- Tous les formats de données (ZD, PD, BI, FI, FL)
-- Performance tuning
-- 50+ exemples pratiques
+#### Chapitre 9 : Tests de Performance
+- JMeter pour mainframe
+- Load testing CICS
+- Batch performance testing
+- Métriques (response time, throughput)
+- Analyse de résultats
+- Performance gates
+- Regression detection
 
-#### 14. IDCAMS - Gestion VSAM
-- Qu'est-ce que VSAM ?
-- Types de fichiers VSAM (KSDS, ESDS, RRDS)
-- DEFINE CLUSTER
-- DEFINE AIX (alternate index)
-- REPRO (copy data)
-- DELETE
-- LISTCAT (catalog info)
-- VERIFY
-- ALTER
-- BLDINDEX
-- Exemples de production
-
-**🎯 Objectifs Partie 3A :**
-
-- Maîtriser SORT pour tout type de tri/filtrage
-- Créer et gérer des fichiers VSAM
-- Optimiser les performances SORT
-- Utiliser IDCAMS pour maintenance fichiers
+**🎯 Objectifs Partie 3 :**
+- Écrire des tests unitaires COBOL
+- Automatiser les tests d'intégration
+- Tester les performances
+- Intégrer tous les tests au pipeline
 
 ---
 
-### 📙 Partie 3B : Techniques Avancées (20-25h)
+### 📕 Partie 4 : Stratégies de Déploiement (20-25h)
 
-**Fichier :** `jcl-guide-partie3b-chap15-18.md`
+#### Chapitre 10 : Blue-Green Deployment
+- Concept et bénéfices
+- Architecture avec 2 CICS regions
+- Script de switch complet
+- Health checks
+- Rollback automatique
+- Monitoring pendant switch
+- Cas réel banque
 
-**Chapitres 15-18**
+#### Chapitre 11 : Canary Deployment
+- Déploiement progressif (10% → 100%)
+- Configuration WLM (Workload Manager)
+- Monitoring intensif
+- Automatic rollback si problème
+- Scripts complets
+- Métriques clés (error rate, latency)
 
-#### 15. Procedures Avancées
-- Nested procedures
-- Paramètres complexes
-- Default values
-- Procédures multi-steps
-- Override avancés
-- Bibliothèques de PROCS
-- Maintenance de PROCS
+#### Chapitre 12 : Rollback et Recovery
+- Backup avant déploiement
+- Rollback rapide (< 5 minutes)
+- Version tracking
+- Database rollback
+- Scripts d'urgence
+- Post-mortem process
 
-#### 16. Paramètres Symboliques
-- SET statement
-- Symboles dans JOB/EXEC/DD
-- Substitution automatique
-- Variables d'environnement
-- JCLPATH
-- INCLUDE groups
-
-#### 17. Conditional Processing Avancé
-- IF/THEN/ELSE complexe
-- ABEND handling
-- RC checking avancé
-- Multiple conditions
-- Job flow control
-- Error recovery strategies
-
-#### 18. JES2/JES3
-- Différences JES2 vs JES3
-- JOBPARM statement
-- OUTPUT statement
-- XMIT statement
-- Contrôle du scheduling
-- Priorités et classes
-- Output routing
-
-**🎯 Objectifs Partie 3B :**
-
-- Créer des procédures production-grade
-- Utiliser les symboliques efficacement
-- Implémenter error handling robuste
-- Comprendre JES2/JES3 en profondeur
+**🎯 Objectifs Partie 4 :**
+- Implémenter blue-green deployment
+- Déployer en canary avec monitoring
+- Rollback rapide en cas de problème
+- Zero-downtime deployments
 
 ---
 
-### 📕 Partie 4A : Production Avancée (25-30h)
+### 📓 Partie 5 : Monitoring et Observabilité (15-20h)
 
-**Fichier :** `jcl-guide-partie4a-chap19-22.md`
+#### Chapitre 13 : Monitoring en Production
+- Métriques clés (CPU, I/O, response time)
+- Splunk pour z/OS
+- ELK Stack integration
+- Dashboards temps réel
+- Alerting (PagerDuty, Slack)
+- SLA monitoring
+- Incident detection automatique
 
-**Chapitres 19-22**
+#### Chapitre 14 : Logging Centralisé
+- Collecte de logs z/OS
+- SYSLOG integration
+- CICS logs
+- Batch job logs
+- Parsing et indexation
+- Search et analytics
+- Log retention
 
-#### 19. Restart et Checkpoint
-- Le problème des jobs longs
-- Restart automatique
-- Checkpoint/restart
-- RD parameter
-- SYSCHK DD
-- Restart depuis un step spécifique
-- Checkpoint dans COBOL
-- Recovery strategies
-- Jobs de 8+ heures
+#### Chapitre 15 : APM (Application Performance Monitoring)
+- IBM Instana
+- Dynatrace
+- Distributed tracing
+- Transaction flow
+- Bottleneck detection
+- AI anomaly detection
 
-#### 20. Error Handling Avancé
-- Return codes détaillés
-- ABEND codes (S0C1, S0C4, S0C7, S322, S806, S813, SB37, SD37)
-- Error messages interpretation
-- SYSOUT analysis
-- Debugging techniques
-- Recovery procedures
-- Notification automatique
-- Escalation process
-
-#### 21. Performance et Optimisation
-- REGION optimization
-- BUFNO tuning
-- BLKSIZE optimal
-- Parallel processing
-- SORTWORK files
-- VIO (Virtual I/O)
-- Cache strategies
-- Avant/Après exemples (8h → 45min)
-
-#### 22. Sécurité et RACF
-- Qu'est-ce que RACF ?
-- Protection des datasets
-- UACC (Universal Access)
-- PERMIT command
-- Generic profiles
-- Audit logging
-- Best practices sécurité
-- Compliance
-
-**🎯 Objectifs Partie 4A :**
-
-- Implémenter restart/checkpoint pour jobs critiques
-- Diagnostiquer et résoudre toutes les erreurs
-- Optimiser les performances (5-10x faster)
-- Sécuriser les jobs selon standards bancaires
+**🎯 Objectifs Partie 5 :**
+- Monitorer toute la production
+- Centraliser tous les logs
+- Détecter les problèmes avant les users
+- Dashboard 24/7 pour operations
 
 ---
 
-### 📓 Partie 4B : Production Réelle (20-25h)
+### 📗 Partie 6 : Sécurité DevSecOps (10-15h)
 
-**Fichier :** `jcl-guide-partie4b-chap23-25.md`
+#### Chapitre 16 : Sécurité dans le Pipeline
+- Scan de vulnérabilités (SonarQube)
+- SAST (Static Analysis)
+- DAST (Dynamic Analysis)
+- Dependency checking
+- Security gates
+- Compliance automation
 
-**Chapitres 23-25**
+#### Chapitre 17 : Gestion des Secrets
+- HashiCorp Vault
+- Credentials dans Jenkins
+- Rotation automatique
+- Audit trail
+- RACF integration
+- Best practices
 
-#### 23. Monitoring et Diagnostics
-- SYSOUT et job logs
-- Messages de complétion
-- ABEND analysis détaillée
-- SMF records
-- Outils de monitoring (CA OPS, Tivoli, Control-M)
-- Real-time dashboards
-- Alerting automatique
-- Incident response
-- 24/7 operations
+#### Chapitre 18 : Audit et Compliance
+- RACF audit logging
+- Change tracking
+- Deployment history
+- Access control
+- Regulatory compliance (SOX, PCI-DSS)
+- Automated reporting
 
-#### 24. Best Practices Production
+**🎯 Objectifs Partie 6 :**
+- Sécuriser tout le pipeline CI/CD
+- Gérer les secrets correctement
+- Audit complet et compliance
+- DevSecOps production-ready
+
+---
+
+### 📕 Partie 7 : Best Practices et Production (10-15h)
+
+#### Chapitre 19 : Best Practices
 - Documentation standards
-- Naming conventions
-- Version control (Git pour JCL)
-- Change management
-- Testing strategy (DEV → TEST → UAT → PROD)
-- Backup strategy
-- Code review checklist
-- Security best practices
-- Performance standards
-- Disaster recovery
+- Code organization
+- Dataset naming
+- Version control strategy
+- Testing strategy
+- Deployment checklist
+- Incident response
 
-#### 25. JCL en Production Réelle
-- Architecture production bancaire
-- Job DAILYCLS complet (vrai job de closing)
-- Scheduling et dépendances
-- Blue-green deployment
-- Canary deployment
-- Rollback rapide
-- 24/7 operations
-- Incident response réel
-- Performance monitoring
-- Capacity planning
-- Migration strategies
-- Futur du JCL
+#### Chapitre 20 : Outils Essentiels
+- Open source (Zowe, Git, Jenkins)
+- Commercial (IBM DBB, Compuware, BMC)
+- Cloud platforms
+- Comparaison et choix
+- Installation et setup
+- Configuration optimale
 
-**🎯 Objectifs Partie 4B :**
+#### Chapitre 21 : Roadmap d'Implémentation
+- Phase 1 : Fondations (mois 1-3)
+- Phase 2 : Automatisation (mois 4-6)
+- Phase 3 : Qualité (mois 7-9)
+- Phase 4 : Production (mois 10-12)
+- Phase 5 : Optimisation (année 2)
+- Métriques de succès
+- Pièges à éviter
 
-- Monitorer et diagnostiquer en production
+**🎯 Objectifs Partie 7 :**
 - Suivre les best practices enterprise
-- Gérer des jobs de production critique
-- Répondre aux incidents 24/7
-- Planifier et exécuter des déploiements
-- Travailler comme un vrai professionnel mainframe
+- Choisir les bons outils
+- Planifier l'implémentation DevOps
+- Mesurer le succès
 
 ---
 
@@ -426,54 +333,51 @@ Le cours explique **tout depuis zéro**, y compris les concepts de base du mainf
 
 ### 📅 Plan d'Étude Recommandé
 
-#### 🐢 Mode Débutant Absolu (14-18 semaines)
+#### 🐢 Mode Débutant (12-16 semaines)
 
 | Semaine | Contenu | Temps/Semaine |
 |---------|---------|---------------|
-| 1-2 | Partie 1 - Chapitres 1-3 | 8-10h |
-| 3-4 | Partie 1 - Chapitres 4-6 | 8-10h |
-| 5-6 | Partie 2 - Chapitres 7-9 | 8-10h |
-| 7-8 | Partie 2 - Chapitres 10-12 | 8-10h |
-| 9-10 | Partie 3A - Chapitres 13-14 | 8-10h |
-| 11-12 | Partie 3B - Chapitres 15-18 | 8-10h |
-| 13-14 | Partie 4A - Chapitres 19-22 | 8-10h |
-| 15-16 | Partie 4B - Chapitres 23-25 | 8-10h |
-| 17-18 | Révision et projets | 8-10h |
+| 1-2 | Partie 1 - Introduction | 8-10h |
+| 3-4 | Partie 2 - Pipeline CI/CD | 10-12h |
+| 5-6 | Partie 3 - Tests | 10-12h |
+| 7-8 | Partie 4 - Déploiement | 10-12h |
+| 9-10 | Partie 5 - Monitoring | 8-10h |
+| 11-12 | Partie 6 - Sécurité | 6-8h |
+| 13-14 | Partie 7 - Best Practices | 6-8h |
+| 15-16 | Projets et révision | 10-15h |
 
-**Total : 112-160h**
+**Total : 96-128h**
 
 ---
 
-#### ⚡ Mode Intensif (8-10 semaines)
+#### ⚡ Mode Intensif (6-8 semaines)
 
 | Semaine | Contenu | Temps/Semaine |
 |---------|---------|---------------|
-| 1 | Partie 1 complète | 20-25h |
-| 2-3 | Partie 2 complète | 25-30h |
-| 4 | Partie 3A complète | 20-25h |
-| 5 | Partie 3B complète | 20-25h |
-| 6-7 | Partie 4A complète | 25-30h |
-| 8 | Partie 4B complète | 20-25h |
-| 9-10 | Projets et révision | 20-30h |
+| 1 | Parties 1-2 | 20-25h |
+| 2-3 | Partie 3 | 20-25h |
+| 4 | Partie 4 | 20-25h |
+| 5 | Partie 5 | 15-20h |
+| 6 | Parties 6-7 | 15-20h |
+| 7-8 | Projets | 20-30h |
 
-**Total : 120-160h**
+**Total : 90-120h**
 
 ---
 
-#### 🏃 Mode Expérimenté (5-7 semaines)
+#### 🏃 Mode Expérimenté (4-6 semaines)
 
-Si tu connais déjà COBOL ou as de l'expérience mainframe :
+Si tu as déjà de l'expérience DevOps ou mainframe :
 
 | Semaine | Contenu | Temps/Semaine |
 |---------|---------|---------------|
-| 1 | Parties 1-2 (survol syntaxe) | 20-25h |
-| 2 | Partie 3A (SORT/IDCAMS) | 20-25h |
-| 3 | Partie 3B (techniques avancées) | 20-25h |
-| 4-5 | Partie 4A (production avancée) | 25-30h |
-| 6 | Partie 4B (production réelle) | 20-25h |
-| 7 | Projets professionnels | 20-25h |
+| 1 | Parties 1-2 (survol) | 20-25h |
+| 2 | Parties 3-4 | 20-25h |
+| 3 | Parties 5-6 | 20-25h |
+| 4 | Partie 7 + projets | 20-25h |
+| 5-6 | Implémentation réelle | 30-40h |
 
-**Total : 100-120h**
+**Total : 80-100h**
 
 ---
 
@@ -481,150 +385,212 @@ Si tu connais déjà COBOL ou as de l'expérience mainframe :
 
 #### ✅ À FAIRE
 
-✅ **Lire dans l'ordre** (ne saute pas de chapitres)  
-✅ **Taper TOUS les exemples** (ne copie-colle pas)  
-✅ **Faire TOUS les exercices** (essentiels pour progresser)  
-✅ **Commenter ton JCL** (explique ce que tu fais)  
-✅ **Créer tes propres jobs** dès la Partie 2  
-✅ **Prendre des notes manuscrites** (aide à mémoriser)  
-✅ **Relire les sections difficiles** plusieurs fois  
-✅ **Pratiquer quotidiennement** (30 min minimum)  
-✅ **Analyser les jobs logs** (apprends à debugger)  
+✅ **Installer tous les outils** (Git, Jenkins, Zowe CLI)  
+✅ **Taper TOUS les scripts** (ne copie-colle pas)  
+✅ **Créer un repo Git** pour tes exercices  
+✅ **Tester chaque pipeline** (debugging = apprentissage)  
+✅ **Documenter tes configurations**  
+✅ **Faire les exercices pratiques**  
+✅ **Créer ton propre pipeline** perso  
+✅ **Rejoindre les communautés** (Zowe Slack, forums)  
 
 #### ❌ À ÉVITER
 
-❌ Sauter des chapitres (chaque concept s'appuie sur le précédent)  
-❌ Copier-coller le JCL (tu n'apprends rien)  
-❌ Passer les exercices (c'est là que tu apprends vraiment)  
-❌ Lire sans pratiquer (JCL s'apprend en soumettant des jobs)  
-❌ Abandonner aux premiers ABEND (normal d'avoir des erreurs !)  
-❌ Ignorer les messages d'erreur (ils t'apprennent beaucoup)  
-❌ Apprendre plusieurs langages en parallèle (focus JCL d'abord)  
+❌ Sauter les chapitres fondamentaux  
+❌ Copier-coller sans comprendre  
+❌ Ignorer les erreurs (elles t'apprennent)  
+❌ Ne pas pratiquer régulièrement  
+❌ Apprendre plusieurs outils en parallèle  
+❌ Oublier la documentation  
+❌ Négliger la sécurité  
 
 ---
 
-## 💻 Environnement de Pratique
+## 💻 Installation et Setup
 
-### Option 1 : Émulateur Mainframe (Gratuit)
+### 🛠️ Outils Nécessaires
 
-**Hercules + MVS 3.8J (Gratuit, Open Source)**
+#### 1. Git (Obligatoire)
 
 ```bash
-# Installation sur Linux/Mac
-# 1. Installer Hercules
-# Ubuntu/Debian
-sudo apt install hercules
+# Windows
+# Télécharger : https://git-scm.com/download/win
 
 # Mac
-brew install hercules
+brew install git
 
-# 2. Télécharger MVS 3.8J TK4-
-wget http://wotho.ethz.ch/tk4-/tk4-_v1.00_current.zip
-unzip tk4-_v1.00_current.zip
-cd tk4-
+# Linux
+sudo apt install git  # Ubuntu/Debian
+sudo dnf install git  # Fedora/RHEL
 
-# 3. Lancer
-./mvs
-
-# 4. Se connecter
-# URL: http://localhost:8038
-# User: HERC01
-# Pass: CUL8TR
+# Vérifier
+git --version
 ```
 
 ---
 
-### Option 2 : IBM Z Xplore (Gratuit)
+#### 2. Zowe CLI (Obligatoire pour mainframe)
 
-**Environnement z/OS réel fourni par IBM**
+```bash
+# Installer Node.js d'abord
+# https://nodejs.org/
 
-1. Aller sur : https://ibm.github.io/zxplore/
-2. Créer un compte (gratuit)
-3. Accès à z/OS complet
-4. Perfect pour apprendre
+# Installer Zowe CLI
+npm install -g @zowe/cli@zowe-v2-lts
+
+# Vérifier
+zowe --version
+
+# Configuration
+zowe profiles create zosmf-profile myMainframe \
+    --host mainframe.company.com \
+    --port 443 \
+    --user MYUSERID \
+    --password \
+    --reject-unauthorized false
+```
 
 ---
 
-### Option 3 : Mainframe Cloud (Payant)
+#### 3. Jenkins (Pour CI/CD)
 
-**Pour pratique professionnelle**
+```bash
+# Option 1 : Docker (recommandé pour apprendre)
+docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
 
-- **IBM Z Trial** : $30-100/mois
-- **Marist College Cloud** : Gratuit pour étudiants
-- **AWS Mainframe Modernization** : Pay-as-you-go
+# Option 2 : Installation locale
+# Windows/Mac/Linux : https://www.jenkins.io/download/
+
+# Accès
+# http://localhost:8080
+
+# Plugins nécessaires :
+# - Git Plugin
+# - Pipeline Plugin
+# - z/OS Connector Plugin
+```
 
 ---
 
-### Option 4 : Travail
+#### 4. VS Code avec Extensions
 
-**Le mieux : demander accès à ton travail**
+```bash
+# Télécharger VS Code
+# https://code.visualstudio.com/
 
-Si tu travailles déjà dans une entreprise avec mainframe, demande un accès LPAR DEV. C'est la meilleure façon d'apprendre avec du vrai matériel.
+# Extensions recommandées :
+# - Zowe Explorer
+# - COBOL Language Support
+# - JCL Syntax Highlighting
+# - GitLens
+# - Docker
+```
+
+---
+
+#### 5. IBM DBB (Optionnel mais recommandé)
+
+```bash
+# Nécessite licence IBM
+# Ou version trial : https://www.ibm.com/products/dependency-based-build
+
+# Installation sur z/OS
+# Suivre documentation IBM
+```
+
+---
+
+### 🧪 Environnement de Test
+
+#### Option 1 : z/OS Personnel (Hercules)
+
+```bash
+# Installation Hercules + MVS
+# Voir guide JCL pour instructions complètes
+
+# Bon pour : Apprendre les concepts
+# Limites : Pas tous les outils modernes
+```
+
+---
+
+#### Option 2 : IBM Z Trial
+
+```bash
+# https://www.ibm.com/z/trial
+
+# z/OS complet dans le cloud
+# $30-100/mois
+# Best pour : Pratique réelle
+```
+
+---
+
+#### Option 3 : Travail
+
+**Le mieux : Utiliser l'environnement de ton entreprise**
+
+Si tu travailles déjà avec mainframe, demande :
+- Accès LPAR DEV
+- Compte Jenkins
+- Permissions Git
+- Accès Zowe
 
 ---
 
 ## 📖 Organisation des Fichiers
 
 ```
-📁 jcl-course/
+📁 devops-mainframe-course/
 │
-├── 📄 JCL_README.md (ce fichier)
+├── 📄 DEVOPS_MAINFRAME_README.md (ce fichier)
 │
-├── 📘 jcl-guide-partie1-chap1-6.md
-│   ├── Chapitres 1-6
-│   └── Fondamentaux JCL
-│
-├── 📗 jcl-guide-partie2-chap7-12.md
-│   ├── Chapitres 7-12
-│   └── JCL Intermédiaire
-│
-├── 📙 jcl-guide-partie3a-chap13-14.md
-│   ├── Chapitres 13-14
-│   └── SORT et IDCAMS
-│
-├── 📙 jcl-guide-partie3b-chap15-18.md
-│   ├── Chapitres 15-18
-│   └── Techniques avancées
-│
-├── 📕 jcl-guide-partie4a-chap19-22.md
-│   ├── Chapitres 19-22
-│   └── Production avancée
-│
-├── 📓 jcl-guide-partie4b-chap23-25.md
-│   ├── Chapitres 23-25
-│   └── Production réelle
+├── 📘 devops-mainframe-guide-complet.md
+│   └── Guide complet avec tous les chapitres
 │
 ├── 📂 exemples/
-│   ├── 01-hello-world/
-│   ├── 02-dataset-management/
-│   ├── 03-sort-examples/
-│   ├── 04-vsam-management/
-│   ├── 05-procedures/
-│   ├── ... (200+ exemples)
-│   └── 99-production-jobs/
+│   ├── 01-git-setup/
+│   ├── 02-jenkins-pipeline/
+│   ├── 03-dbb-build/
+│   ├── 04-tests-unitaires/
+│   ├── 05-tests-integration/
+│   ├── 06-blue-green/
+│   ├── 07-canary/
+│   ├── 08-monitoring/
+│   ├── 09-security/
+│   └── ... (150+ exemples)
 │
-├── 📂 exercices/
-│   ├── partie1/
-│   ├── partie2/
-│   ├── partie3a/
-│   ├── partie3b/
-│   ├── partie4a/
-│   ├── partie4b/
-│   └── solutions/
+├── 📂 scripts/
+│   ├── jenkins/
+│   │   ├── Jenkinsfile-complete
+│   │   ├── Jenkinsfile-simple
+│   │   └── shared-library/
+│   ├── bash/
+│   │   ├── deploy.sh
+│   │   ├── rollback.sh
+│   │   ├── healthcheck.sh
+│   │   └── ...
+│   ├── groovy/
+│   │   ├── build.groovy
+│   │   ├── scan-dependencies.groovy
+│   │   └── ...
+│   └── zowe/
+│       ├── upload-sources.sh
+│       ├── submit-job.sh
+│       └── ...
 │
 ├── 📂 projets/
-│   ├── 01-batch-processing/
-│   ├── 02-data-migration/
-│   ├── 03-backup-system/
-│   ├── 04-daily-closing/
-│   └── ... (20+ projets)
+│   ├── 01-simple-pipeline/
+│   ├── 02-complete-cicd/
+│   ├── 03-blue-green-deploy/
+│   ├── 04-monitoring-setup/
+│   └── ... (10+ projets)
 │
 └── 📂 ressources/
     ├── cheatsheets/
-    ├── reference-cards/
-    ├── abend-codes/
-    ├── return-codes/
-    └── liens-utiles.md
+    ├── architecture-diagrams/
+    ├── tool-comparisons/
+    └── links.md
 ```
 
 ---
@@ -633,78 +599,66 @@ Si tu travailles déjà dans une entreprise avec mainframe, demande un accès LP
 
 ### 🥉 Niveau Débutant (Après Partie 2)
 
-#### 1. Dataset Management System
-- Créer/Delete datasets
-- Copy datasets
-- Backup/Restore
-- Liste catalogues
+#### 1. Simple Git + Jenkins Pipeline
+- Repository Git avec code COBOL
+- Jenkinsfile basique
+- Upload vers z/OS
+- Compilation automatique
+- Rapport de build
 
-#### 2. Simple Batch Processing
-- Lire fichier input
-- Traiter records
-- Écrire fichier output
-- Rapport d'exécution
-
-#### 3. File Concatenation
-- Multiple fichiers input
-- Merge dans un fichier
-- Statistiques
+#### 2. Automated Testing Setup
+- Tests unitaires COBOL
+- Exécution automatique
+- Rapport de coverage
+- Intégration Jenkins
 
 ---
 
-### 🥈 Niveau Intermédiaire (Après Partie 3)
+### 🥈 Niveau Intermédiaire (Après Partie 4)
 
-#### 4. Data Sorting System
-- Tri complexe multi-clés
-- Filtrage de données
-- Reformatage
-- Statistiques
-
-#### 5. VSAM File Manager
-- Créer fichiers VSAM
-- CRUD operations
-- Backup automatique
-- Reorganisation
-
-#### 6. GDG Rotation System
-- Créer base GDG
-- Backup quotidiens
-- Rotation automatique
-- Purge anciens
-
-#### 7. Error Recovery System
-- Détection d'erreurs
-- Restart automatique
-- Logging
+#### 3. Complete CI/CD Pipeline
+- Multi-environnements (DEV, TEST, PROD)
+- Tests automatiques complets
+- Déploiement conditionnel
 - Notifications
-
----
-
-### 🥇 Niveau Avancé (Après Partie 4)
-
-#### 8. Daily Batch Processing (Banque)
-- Extract transactions
-- Validate data
-- Sort by account
-- Post to accounts
-- Generate reports
-- Backup
-- Error handling
-- Restart capability
-
-#### 9. Month-End Closing System
-- Multiple jobs enchaînés
-- Dépendances complexes
-- Conditional execution
-- Performance optimisé
 - Rollback capability
 
-#### 10. Production Monitoring System
-- Job scheduling
-- Performance tracking
-- Error alerting
-- Resource monitoring
-- Dashboard reporting
+#### 4. Blue-Green Deployment
+- 2 CICS regions
+- Switch automatique
+- Health checks
+- Monitoring
+- Rollback automatique
+
+#### 5. Monitoring Dashboard
+- Splunk integration
+- CICS metrics
+- Batch job monitoring
+- Alerting setup
+- Real-time dashboard
+
+---
+
+### 🥇 Niveau Avancé (Après Partie 7)
+
+#### 6. Banking Application Pipeline
+- Application COBOL + CICS complète
+- DB2 integration
+- Pipeline complet DEV → PROD
+- Blue-green deployment
+- Canary rollout option
+- Full monitoring
+- Security scanning
+- Compliance reporting
+
+#### 7. DevOps Platform Complete
+- Multi-applications
+- Shared Jenkins libraries
+- Automated testing suite
+- Deployment strategies multiples
+- Centralized monitoring
+- Security automation
+- Documentation automatique
 
 ---
 
@@ -712,59 +666,64 @@ Si tu travailles déjà dans une entreprise avec mainframe, demande un accès LP
 
 ### 📖 Documentation Officielle
 
-- **IBM z/OS JCL Reference** : https://www.ibm.com/docs/en/zos
-- **IBM z/OS JCL User's Guide** : https://www.ibm.com/docs/en/zos
-- **DFSORT Application Programming Guide** : https://www.ibm.com/docs/en/zos
-- **IDCAMS Reference** : https://www.ibm.com/docs/en/zos
+- **Zowe Docs** : https://docs.zowe.org
+- **IBM DBB** : https://www.ibm.com/docs/en/dbb
+- **Jenkins** : https://www.jenkins.io/doc/
+- **GitLab CI** : https://docs.gitlab.com/ee/ci/
 
 ---
 
 ### 🎓 Cours en Ligne
 
-- **IBM Z Xplore** (gratuit) : https://ibm.github.io/zxplore/
-- **Coursera - Mainframe Fundamentals** : https://www.coursera.org
-- **Udemy - JCL Courses** : https://www.udemy.com
+- **IBM Z Xplore** (gratuit)
+- **Coursera - DevOps Fundamentals**
+- **Udemy - Jenkins Master Class**
+- **Linux Academy - DevOps Learning Path**
 
 ---
 
 ### 💻 Communautés
 
-- **r/mainframe** (Reddit) : https://reddit.com/r/mainframe
-- **Stack Overflow - JCL** : https://stackoverflow.com/questions/tagged/jcl
-- **IBM Community** : https://community.ibm.com/community/user/ibmz
-- **Mainframe Dev Community** : https://mainframedev.com
+- **Zowe Slack** : https://openmainframeproject.slack.com
+- **r/mainframe** (Reddit)
+- **r/devops** (Reddit)
+- **Stack Overflow - mainframe, devops**
+- **Open Mainframe Project** : https://www.openmainframeproject.org
 
 ---
 
 ### 📺 Chaînes YouTube
 
 - **IBM Developer**
-- **Mainframe IT Pro**
-- **JCL Training Videos**
+- **DevOps Toolkit**
+- **Continuous Delivery**
+- **Zowe Project**
 
 ---
 
-### 📱 Outils
+### 📱 Outils Open Source
 
-- **Hercules** : Émulateur mainframe open-source
-- **TK4-** : Distribution MVS gratuite
-- **z/OSMF** : Interface web z/OS moderne
-- **ISPF** : Interface mainframe traditionnelle
+- **Zowe** : CLI et API pour z/OS
+- **Jenkins** : CI/CD orchestration
+- **Git** : Version control
+- **Ansible** : Automation
+- **Grafana** : Dashboards
+- **Prometheus** : Monitoring
 
 ---
 
 ## 💰 Opportunités de Carrière
 
-### 📊 Marché du Travail JCL
+### 📊 Marché du Travail DevOps Mainframe
 
 | Aspect | Détail |
 |--------|--------|
-| **Demande** | ⬆️ TRÈS élevée (pénurie critique) |
-| **Concurrence** | ⬇️ Très faible (peu de candidats) |
-| **Salaire Débutant** | $60K - $80K |
-| **Salaire Intermédiaire** | $90K - $120K |
-| **Salaire Senior** | $130K - $180K |
-| **Freelance** | $120 - $250/heure |
+| **Demande** | ⬆️ TRÈS élevée (rarissime) |
+| **Concurrence** | ⬇️ Extrêmement faible |
+| **Salaire Débutant** | $80K - $100K |
+| **Salaire Intermédiaire** | $110K - $140K |
+| **Salaire Senior** | $150K - $200K |
+| **Freelance** | $150 - $300/heure |
 | **Stabilité** | 🔒 Exceptionnelle |
 | **Évolution** | 📈 Excellente |
 
@@ -773,59 +732,51 @@ Si tu travailles déjà dans une entreprise avec mainframe, demande un accès LP
 ### 🏢 Types d'Entreprises
 
 **🏦 Banques**
-- JPMorgan Chase
-- Bank of America
-- Wells Fargo
-- Citibank
-- BNP Paribas
-- Société Générale
-- Credit Suisse
+- JPMorgan Chase ($150K-$180K)
+- Bank of America ($140K-$170K)
+- Wells Fargo ($135K-$165K)
+- Citibank ($145K-$175K)
+- Grandes banques européennes
 
 **🏥 Assurances**
-- AXA
-- MetLife
-- Allianz
-- Prudential
-- State Farm
+- AXA ($130K-$160K)
+- MetLife ($125K-$155K)
+- Allianz ($135K-$165K)
+
+**💼 Consulting**
+- IBM ($140K-$180K)
+- Accenture ($130K-$170K)
+- Deloitte ($135K-$175K)
+- Big 4 consulting
 
 **🏛️ Gouvernements**
-- IRS (Internal Revenue Service)
-- Social Security Administration
-- Department of Defense
-- DMV (Department of Motor Vehicles)
-- Centres fiscaux
-
-**✈️ Transport**
-- Airlines (systèmes de réservation)
-- Chemins de fer
-- Logistique
-
-**🛒 Retail**
-- Walmart
-- Target
-- Grandes chaînes
+- Federal agencies ($110K-$150K)
+- Stabilité maximale
+- Benefits excellents
 
 ---
 
 ### 📈 Évolution de Carrière
 
 ```
-Junior JCL Developer (0-2 ans)
-  Salaire: $60K - $80K
+Junior DevOps Engineer Mainframe (0-2 ans)
+  Salaire: $80K - $100K
     ↓
-JCL Developer (2-5 ans)
-  Salaire: $85K - $110K
+DevOps Engineer Mainframe (2-5 ans)
+  Salaire: $110K - $140K
     ↓
-Senior JCL Developer (5-10 ans)
-  Salaire: $115K - $150K
+Senior DevOps Engineer Mainframe (5-10 ans)
+  Salaire: $150K - $180K
     ↓
 Spécialisation :
-├── JCL/Mainframe Architect ($150K-$200K)
-├── Production Support Lead ($130K-$180K)
-├── DevOps Mainframe Engineer ($140K-$190K)
-├── Batch Processing Expert ($135K-$175K)
-└── Consultant JCL ($150-$250/h freelance)
+├── DevOps Architect Mainframe ($180K-$220K)
+├── Site Reliability Engineer (SRE) ($170K-$210K)
+├── DevOps Manager/Lead ($160K-$200K)
+├── Principal Engineer ($190K-$240K)
+└── Consultant DevOps Mainframe ($150-$300/h)
 ```
+
+**💎 Skill rare + High demand = Salaires exceptionnels**
 
 ---
 
@@ -833,217 +784,266 @@ Spécialisation :
 
 ### 🤔 Questions Générales
 
-**Q1 : JCL est-il vraiment encore utilisé en 2024 ?**
+**Q1 : Le DevOps mainframe est-il vraiment nécessaire en 2024 ?**
 
-**R :** OUI, ABSOLUMENT ! JCL est utilisé dans :
-- 95% des banques mondiales
-- 80% des compagnies d'assurance
-- 90% des systèmes gouvernementaux
-- Des TRILLIONS de dollars de transactions par jour
-- 220+ milliards de lignes de COBOL tournent avec JCL
+**R :** ABSOLUMENT ! Les raisons :
+- Systèmes mainframe tournent 24/7/365
+- Deployment manual = trop lent et risqué
+- Compétition digitale = besoin de vitesse
+- Pénurie de talents = automation critique
+- Réglementation = traçabilité obligatoire
 
 ---
 
-**Q2 : Combien de temps faut-il pour apprendre JCL ?**
+**Q2 : Combien de temps pour apprendre DevOps mainframe ?**
 
 **R :**
-- **Débutant complet** : 3-6 mois (apprendre + pratiquer)
-- **Avec expérience mainframe** : 1-3 mois
-- **Pour être employable** : 6-12 mois d'expérience totale
-- **Pour devenir expert** : 2-3 ans de production
+- **Avec expérience DevOps** : 2-3 mois
+- **Avec expérience mainframe** : 3-6 mois
+- **Débutant complet** : 6-12 mois
+- **Pour être expert** : 2-3 ans
 
 ---
 
-**Q3 : Est-ce difficile d'apprendre JCL ?**
+**Q3 : Est-ce difficile d'apprendre DevOps mainframe ?**
 
-**R :** JCL est **plus simple** que beaucoup pensent !
-- ✅ Syntaxe rigide mais claire
-- ✅ Seulement 3 statements principaux (JOB, EXEC, DD)
-- ✅ Logique très procédurale
-- ⚠️ Mais : Erreurs cryptiques à comprendre
-- ⚠️ Mais : Contexte mainframe à apprendre
+**R :** Challenges :
+- ✅ Concepts DevOps (si tu connais déjà : facile)
+- ⚠️ Spécificités mainframe (EBCDIC, JCL, datasets)
+- ⚠️ Tooling legacy + moderne (double compétence)
+- ✅ Mais : Ce guide explique TOUT !
 
-**Avec ce guide, c'est BEAUCOUP plus facile !**
+**Avec de la pratique : TRÈS accessible**
 
 ---
 
-**Q4 : Puis-je apprendre JCL gratuitement ?**
+**Q4 : Quels outils sont gratuits vs payants ?**
 
-**R :** Absolument !
-- ✅ Ce cours est 100% gratuit
-- ✅ Hercules (émulateur) est gratuit
-- ✅ IBM Z Xplore est gratuit
-- ✅ Plein de ressources gratuites en ligne
+**R :** 
+
+**Gratuit :**
+- Git, Jenkins, Zowe CLI
+- Ansible, Grafana, Prometheus
+- VS Code, Docker
+
+**Payant :**
+- IBM DBB ($$$)
+- Compuware Topaz ($$$$)
+- BMC AMI DevX ($$$)
+- Micro Focus ($$$$)
+
+**Tu peux commencer 100% gratuit !**
 
 ---
 
 **Q5 : Ai-je besoin d'un mainframe pour apprendre ?**
 
-**R :** **NON !**
-- Hercules + MVS fonctionne sur ton PC/Mac/Linux
-- IBM Z Xplore donne accès cloud gratuit
-- Un mainframe est utile pour l'emploi mais pas pour apprendre
+**R :** Pas obligatoirement au début :
+- Concepts DevOps : Non
+- Git, Jenkins : Non
+- Scripts : Non (local)
+- Pour la pratique finale : Oui (cloud trial $30/mois)
 
 ---
 
 ### 💻 Questions Techniques
 
-**Q6 : Quel éditeur utiliser pour écrire du JCL ?**
+**Q6 : Quelle différence entre DevOps cloud et DevOps mainframe ?**
 
 **R :**
-- **En production** : ISPF (éditeur mainframe)
-- **Pour apprendre** : VS Code, Notepad++, Sublime Text
-- **Best** : Apprendre avec éditeur simple, puis ISPF
+
+**Similitudes :**
+- Git, CI/CD, tests automatiques
+- Monitoring, alerting
+- Infrastructure as Code
+
+**Différences :**
+- Mainframe : EBCDIC, JCL, datasets, CICS
+- Outils spécifiques (DBB, Zowe)
+- Coûts CPU (MIPS) à optimiser
+- Stabilité > vitesse
 
 ---
 
-**Q7 : Comment tester mon JCL sans mainframe ?**
+**Q7 : Jenkins vs GitLab CI pour mainframe ?**
 
 **R :**
-- Hercules + MVS 3.8J (émulateur gratuit)
-- IBM Z Xplore (cloud gratuit)
-- Ou simplement lire et comprendre la logique
+
+**Jenkins :**
+- ✅ Plus mature pour mainframe
+- ✅ Plugins z/OS
+- ✅ Flexible
+- ⚠️ Setup plus complexe
+
+**GitLab CI :**
+- ✅ Plus moderne
+- ✅ Intégré Git + CI/CD
+- ⚠️ Moins de plugins mainframe
+- ✅ Plus simple à setup
+
+**Recommandation : Jenkins (mais les deux marchent)**
 
 ---
 
-**Q8 : Quelle est la différence entre JCL et COBOL ?**
+**Q8 : Comment gérer EBCDIC avec Git ?**
 
 **R :**
-- **COBOL** = Langage de programmation (logique business)
-- **JCL** = Langage de contrôle (exécuter COBOL et gérer fichiers)
-- **JCL lance les programmes COBOL** en production
+- Zowe CLI fait la conversion auto
+- Git attributes pour configurer
+- Ou conversion manuelle (iconv)
+- **Best : Zowe CLI (transparent)**
 
 ---
 
-**Q9 : Puis-je utiliser JCL sans COBOL ?**
+**Q9 : Peut-on faire du DevOps sans IBM DBB ?**
 
 **R :** Oui !
-- JCL peut exécuter n'importe quel programme (COBOL, PL/I, Assembler)
-- JCL peut utiliser des utilitaires (SORT, IEBGENER, IDCAMS)
-- Mais COBOL + JCL = combo parfait pour mainframe
+- DBB = optimal mais cher
+- Alternative : Scripts maison (Groovy, JCL)
+- Ou : Endevor bridge
+- **Ce guide couvre DBB + alternatives**
 
 ---
 
-**Q10 : Quelles sont les erreurs JCL les plus courantes ?**
+**Q10 : Comment tester sans impacter la production ?**
 
 **R :**
-- **JCL ERROR** : Erreur de syntaxe JCL
-- **S0C7** : Data exception (problème dans le programme)
-- **S0C4** : Protection exception (mémoire)
-- **S322** : Time limit exceeded
-- **S806** : Program not found
-- **S813** : Dataset not found
-- **SB37** : Disk full
-- **SD37** : Secondary space full
-
-**Ce guide t'apprend à résoudre TOUTES ces erreurs !**
+- Environnements séparés (DEV, TEST, PROD)
+- Tests automatiques avant déploiement
+- Blue-green ou canary deployment
+- Rollback rapide si problème
+- **Zero-downtime possible !**
 
 ---
 
 ### 💼 Questions Carrière
 
-**Q11 : Puis-je trouver un emploi en télétravail avec JCL ?**
+**Q11 : Le marché DevOps mainframe est-il saturé ?**
 
-**R :** Oui ! Surtout depuis COVID-19 :
-- Beaucoup d'entreprises offrent télétravail
+**R :** **NON, PÉNURIE CRITIQUE !**
+- Très peu de gens connaissent les deux
+- Demande >> Offre
+- Salaires montent rapidement
+- Peu de concurrence pour jobs
+
+---
+
+**Q12 : Mieux vaut être expert mainframe ou expert DevOps ?**
+
+**R :** **Les DEUX = jackpot ! 💰**
+
+**Expert mainframe seul :** $100K-$150K  
+**Expert DevOps seul :** $110K-$160K  
+**Expert DevOps MAINFRAME :** $150K-$220K  
+
+**La combo est RARE et PRÉCIEUSE**
+
+---
+
+**Q13 : Télétravail possible ?**
+
+**R :** De plus en plus !
+- COVID a changé la donne
 - Support production souvent remote
-- Possibilité hybrid (2-3 jours remote)
+- Meetings en visio
+- Access VPN au mainframe
+- **Hybrid très courant maintenant**
 
 ---
 
-**Q12 : Les jeunes sont-ils acceptés dans le monde mainframe ?**
+**Q14 : Quelle certification obtenir ?**
 
-**R :** ABSOLUMENT !
-- Les entreprises CHERCHENT désespérément des jeunes
-- Âge moyen actuel : 55+ ans
-- Tu es un profil RARE et DEMANDÉ
-- Excellent pour négocier salaire
+**R :** Utiles mais pas obligatoires :
 
----
+**DevOps :**
+- AWS DevOps Engineer
+- Azure DevOps Expert
+- Jenkins Certified Engineer
 
-**Q13 : Faut-il connaître d'autres langages en plus de JCL ?**
+**Mainframe :**
+- IBM Certified System Programmer
+- Zowe Fundamentals
 
-**R :** Utile mais pas obligatoire :
-- **COBOL** : TRÈS recommandé (duo parfait)
-- **SQL** : Important pour DB2
-- **REXX** : Utile pour scripting mainframe
-- **Python/Java** : Plus pour modernisation
+**Best : Expérience réelle > certifs**
 
 ---
 
-**Q14 : Puis-je devenir freelance en JCL ?**
+**Q15 : DevOps mainframe va-t-il disparaître ?**
 
-**R :** Oui, et très lucratif !
-- $120-250/h
-- Mais il faut **3-5 ans d'expérience** d'abord
-- Expertise en production critique
-- Réseau de contacts
-
----
-
-**Q15 : Le JCL va-t-il disparaître ?**
-
-**R :** **PAS avant 20-30 ans minimum**
-- Trop de code en production (60+ ans)
-- Migration = TROP risqué et cher
-- Systèmes critiques (transactions $$$)
-- Plus de demand que d'offre
-- **Ton job est SAFE**
+**R :** **NON, au contraire !**
+- Mainframe restera 20-30+ ans
+- DevOps mainframe = CROISSANCE
+- Modernisation = besoin d'experts
+- Migration vers cloud = besoin d'experts
+- **Ton job est ULTRA-SAFE**
 
 ---
 
 ## ✅ Checklist de Progression
 
 ### 📝 Partie 1 : Fondamentaux
-- [ ] Comprends ce qu'est un mainframe
-- [ ] Connais les 3 statements (JOB, EXEC, DD)
-- [ ] Peux écrire un job simple
-- [ ] Comprends DISP et allocation
-- [ ] Peux créer et delete des datasets
-- [ ] Premier job "Hello World" fonctionne
+- [ ] Comprends les enjeux DevOps mainframe
+- [ ] Connais l'architecture z/OS DevOps
+- [ ] Git installé et configuré
+- [ ] Zowe CLI installé et configuré
+- [ ] Jenkins installé (local ou cloud)
+- [ ] Premier repository Git créé
 
 ---
 
-### 📝 Partie 2 : Intermédiaire
-- [ ] Maîtrise tous les paramètres DD
-- [ ] Comprends DISP en profondeur
-- [ ] Peux gérer des GDG
-- [ ] Écris des jobs conditionnels (IF/THEN/ELSE)
-- [ ] Crée des procédures réutilisables
-- [ ] Utilise IEBGENER, IEBCOPY, IEFBR14
+### 📝 Partie 2 : Pipeline CI/CD
+- [ ] Code COBOL dans Git
+- [ ] Conversion EBCDIC ↔ UTF-8 maîtrisée
+- [ ] Script DBB basique fonctionne
+- [ ] Jenkinsfile simple fonctionne
+- [ ] Upload automatique vers z/OS
+- [ ] Compilation automatique
 
 ---
 
-### 📝 Partie 3A : SORT et VSAM
-- [ ] Maîtrise SORT (tri, filtrage, reformatage)
-- [ ] Peux créer et gérer des fichiers VSAM
-- [ ] Utilise IDCAMS pour maintenance
-- [ ] Optimise les performances SORT
+### 📝 Partie 3 : Tests
+- [ ] Tests unitaires COBOL écrits
+- [ ] Tests exécutés automatiquement
+- [ ] Tests d'intégration créés
+- [ ] Coverage reports générés
+- [ ] Tests de performance configurés
+- [ ] Tous les tests dans pipeline
 
 ---
 
-### 📝 Partie 3B : Techniques Avancées
-- [ ] Crée des procédures complexes
-- [ ] Utilise paramètres symboliques
-- [ ] Implémente error handling robuste
-- [ ] Comprends JES2/JES3
+### 📝 Partie 4 : Déploiement
+- [ ] Blue-green deployment implémenté
+- [ ] Canary deployment configuré
+- [ ] Rollback automatique fonctionne
+- [ ] Health checks en place
+- [ ] Zero-downtime deployment possible
 
 ---
 
-### 📝 Partie 4A : Production Avancée
-- [ ] Implémente restart/checkpoint
-- [ ] Diagnostique tous les ABEND
-- [ ] Optimise les performances (5-10x)
-- [ ] Sécurise avec RACF
+### 📝 Partie 5 : Monitoring
+- [ ] Splunk ou ELK configuré
+- [ ] Logs centralisés
+- [ ] Dashboard créé
+- [ ] Alerting configuré
+- [ ] Monitoring 24/7 opérationnel
 
 ---
 
-### 📝 Partie 4B : Production Réelle
-- [ ] Peux lire et analyser job logs
-- [ ] Suis les best practices production
-- [ ] Comprends le scheduling de jobs
-- [ ] Peux gérer des incidents 24/7
-- [ ] Écris des jobs de production bancaire
+### 📝 Partie 6 : Sécurité
+- [ ] SonarQube intégré
+- [ ] Secrets dans Vault
+- [ ] RACF audit activé
+- [ ] Security gates implémentés
+- [ ] Compliance automatisée
+
+---
+
+### 📝 Partie 7 : Production
+- [ ] Documentation complète
+- [ ] Best practices suivies
+- [ ] Roadmap d'implémentation créée
+- [ ] Métriques de succès définies
+- [ ] Pipeline production-ready
 
 ---
 
@@ -1051,127 +1051,124 @@ Spécialisation :
 
 ### 💡 Comment Contribuer
 
-Ce cours est **open-source** ! Voici comment aider :
+Ce cours est **open-source** !
 
-#### 1. Signaler des Erreurs
-- Typos, bugs dans les exemples
+#### Signaler des Erreurs
+- Bugs dans scripts
 - Explications peu claires
 - Liens cassés
 - Erreurs techniques
 
-#### 2. Proposer des Améliorations
+#### Proposer des Améliorations
 - Nouveaux exemples
-- Exercices supplémentaires
+- Scripts supplémentaires
 - Meilleures explications
 - Diagrammes
 
-#### 3. Ajouter du Contenu
-- Nouveaux projets
-- Études de cas réels
-- Astuces de pro
-- Questions d'interview
-
-#### 4. Traduire
-- Français → Anglais
-- Autres langues
-- Documentation
+#### Ajouter du Contenu
+- Nouveaux outils
+- Cas d'usage réels
+- Études de cas
+- Troubleshooting tips
 
 ---
 
-### 📧 Contact
 
-- **Email** : learning.schooling.foundation@proton.me
-- **GitHub** : [Learning Schooling Foundation](https://github.com/learning-schooling-foundation)
 
 ---
 
 ## 📄 Licence
 
-Ce cours est sous licence **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**
 
 ### Tu peux :
 
-✅ **Partager** : Copier et redistribuer  
-✅ **Adapter** : Remixer, transformer  
-✅ **Utiliser commercialement** : Même dans un contexte commercial  
+✅ **Partager**  
+✅ **Adapter**  
+✅ **Utiliser commercialement**  
 
 ### À condition de :
 
-📝 **Créditer l'auteur** original  
-🔗 **Indiquer les modifications** faites  
+📝 **Créditer** l'auteur  
+🔗 **Indiquer les modifications**  
 📜 **Inclure un lien** vers la licence  
 
 ---
 
 ## 🎉 Message de Motivation
 
-> **"JCL n'est pas un dinosaure - c'est le système nerveux du monde financier. En maîtrisant JCL, tu ne deviens pas un programmeur du passé, mais un expert d'un système critique pour le présent et le futur."**
+> **"Le DevOps mainframe n'est pas une contradiction - c'est l'avenir. Tu combines la stabilité de 60 ans de mainframe avec la vitesse du DevOps moderne. Cette combo est RARE, PRÉCIEUSE, et TRÈS bien payée."**
 
 ---
 
 ## 💪 Pourquoi Tu Vas Réussir
 
-### 1. Ce cours explique VRAIMENT tout
-- Pas de raccourcis
-- Pas de "c'est évident"
-- Chaque concept décortiqué
-- 200+ exemples commentés
+### 1. Skill ultra-rare
+- Peu de gens connaissent les deux
+- Tu seras dans le top 1%
+- Recruteurs te chasseront
 
-### 2. Tu avances à ton rythme
-- Aucune pression
-- Aucun jugement
-- Progresse étape par étape
-- Relis autant que nécessaire
+### 2. Salaires exceptionnels
+- $150K-$220K senior
+- $150-$300/h freelance
+- Croissance rapide
 
-### 3. La pratique est intégrée
-- 200+ exemples à taper
-- 50+ exercices avec solutions
-- 20+ jobs de production réels
-- Tout est expliqué
+### 3. Stabilité totale
+- Mainframe reste 30+ ans
+- DevOps en croissance
+- Zéro risque de chômage
 
-### 4. La communauté t'aide
-- Forums actifs
-- Stack Overflow
-- Reddit r/mainframe
-- Ce README
+### 4. Impact réel
+- Tu modernises des systèmes critiques
+- Des millions de transactions/jour
+- Travail qui compte vraiment
 
-### 5. Le marché t'attend
-- **Demande >> Offre**
-- Salaires élevés ($80K-$180K)
-- Stabilité exceptionnelle
-- Évolution rapide
+### 5. Ce guide t'explique TOUT
+- 150+ exemples
+- Scripts production-ready
+- Rien n'est laissé au hasard
 
 ---
 
 ## 🚀 Commence Maintenant !
 
-**Ne remets pas à demain. La meilleure façon de commencer, c'est de commencer.**
+### ✅ Étape 1 : Installe les outils (1-2 heures)
+```bash
+# Git
+git --version
 
-### ✅ Étape 1 : Choisis ton environnement (30 minutes)
-- Hercules + MVS (gratuit)
-- IBM Z Xplore (gratuit)
-- Ou demande accès au travail
+# Node.js + Zowe CLI
+npm install -g @zowe/cli@zowe-v2-lts
 
-### ✅ Étape 2 : Ouvre la Partie 1 (maintenant!)
-- `jcl-guide-partie1-chap1-6.md`
-- Commence par le Chapitre 1
+# Jenkins (Docker)
+docker run -p 8080:8080 jenkins/jenkins:lts
 
-### ✅ Étape 3 : Écris ton premier job (10 minutes)
-```jcl
-//HELLO   JOB (ACCT),'FIRST JOB',CLASS=A,MSGCLASS=X
-//STEP1   EXEC PGM=IEBGENER
-//SYSIN    DD DUMMY
-//SYSPRINT DD SYSOUT=*
-//SYSUT1   DD *
-Hello, World!
-This is my first JCL job!
-/*
-//SYSUT2   DD SYSOUT=*
+# VS Code + Extensions
+# Télécharge et installe
 ```
 
-### ✅ Étape 4 : Soumets-le et vois le résultat ! 🎉
+### ✅ Étape 2 : Ouvre le guide (maintenant!)
+- `devops-mainframe-guide-complet.md`
+- Commence par l'Introduction
 
-**Le voyage de 1000 jobs commence par un seul JOB statement.**
+### ✅ Étape 3 : Crée ton premier pipeline (2-3 heures)
+```groovy
+// Jenkinsfile simple
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Welcome to DevOps Mainframe!'
+            }
+        }
+    }
+}
+```
+
+### ✅ Étape 4 : Pratique et construis ! 🎉
+
+**Le voyage de 1000 pipelines commence par un seul stage.**
 
 ---
 
@@ -1181,23 +1178,24 @@ This is my first JCL job!
 
 | Après | Compétence Acquise |
 |-------|-------------------|
-| **10 heures** | ✅ Premier job fonctionnel |
-| **25 heures** | ✅ Maîtrise syntaxe de base (JOB/EXEC/DD) |
-| **50 heures** | ✅ Gestion de fichiers et GDG |
-| **80 heures** | ✅ SORT, VSAM, procédures |
-| **120 heures** | ✅ Jobs de production complexes |
+| **10 heures** | ✅ Concepts DevOps mainframe compris |
+| **25 heures** | ✅ Premier pipeline fonctionne |
+| **50 heures** | ✅ Tests automatiques intégrés |
+| **80 heures** | ✅ Déploiement multi-environnements |
+| **100 heures** | ✅ Production-ready pipeline |
 
 ---
 
 ### 🏆 Taux de Réussite
 
 ```
-Commencent le cours            : 100%
-Terminent Partie 1             : 80%
-Terminent Partie 2             : 65%
-Terminent Parties 3A+3B        : 50%
-Terminent le cours complet     : 35%
-Deviennent professionnels JCL  : 25%
+Commencent le cours              : 100%
+Installent les outils            : 90%
+Premier pipeline créé            : 75%
+Tests automatiques intégrés      : 60%
+Déploiement automatique          : 50%
+Pipeline production complet      : 35%
+Travaillent en DevOps mainframe  : 25%
 ```
 
 **💡 Sois dans les 35% qui vont jusqu'au bout !**
@@ -1208,46 +1206,40 @@ Deviennent professionnels JCL  : 25%
 
 ### 📚 Contenu Supplémentaire
 
-En plus du cours principal, tu trouveras :
-
 #### 📋 Cheat Sheets
-- Syntaxe JCL rapide
-- DISP combinations
-- DD parameters
-- Utilitaires (SORT, IDCAMS)
-- ABEND codes
-- Return codes
+- Commandes Zowe CLI
+- Jenkinsfile syntax
+- Git workflow
+- Groovy pour DBB
+- Bash scripting
 
-#### 🎴 Reference Cards
-- JOB statement complet
-- EXEC statement complet
-- DD statement complet
-- SORT control cards
-- IDCAMS commands
+#### 🎴 Architecture Diagrams
+- Pipeline CI/CD complet
+- Blue-green deployment
+- Canary deployment
+- Monitoring architecture
 
-#### 💻 Mini-Projets
-- 50+ défis JCL
-- Différents niveaux
-- Solutions commentées
-- Cas réels
+#### 💻 Scripts Templates
+- Jenkinsfile complets
+- Scripts de déploiement
+- Health checks
+- Rollback automatique
 
-#### 🎤 Interview Prep
-- Questions techniques fréquentes
-- Exercices pratiques
-- Debugging challenges
-- Conseils carrière
+#### 📊 Comparaison d'Outils
+- Jenkins vs GitLab CI
+- Splunk vs ELK
+- DBB vs alternatives
+- Cloud platforms
 
 ---
 
 ## 🌟 Remerciements
 
-**Merci à :**
+**À tous ceux qui croient que le mainframe et le DevOps peuvent coexister.**
 
-- 👨‍💻 **Grace Hopper** : Pour avoir inventé les compilateurs et inspiré le COBOL
-- 🏢 **IBM** : Pour avoir créé et maintenu le mainframe depuis 60+ ans
-- 💻 **Communauté Hercules** : Pour l'émulateur open-source
-- 👥 **Communauté mainframe** : Pour garder les systèmes vivants
-- 🎓 **Tous les apprenants** : Qui utilisent et améliorent ce cours
+**À tous ceux qui modernisent des systèmes critiques sans les casser.**
+
+**À tous ceux qui rendent le savoir accessible à tous.**
 
 ---
 
@@ -1255,34 +1247,26 @@ En plus du cours principal, tu trouveras :
 
 **Si ce cours t'aide, partage-le !**
 
-Plus de gens connaissent JCL = Plus de gens peuvent décrocher des jobs stables et bien payés.
+Plus de gens connaissent DevOps mainframe = Plus d'innovation dans les systèmes critiques.
 
-### 🔗 Liens de Partage
+### 🔗 Partage sur
 
 - **GitHub** : Star le repo
-- **Reddit** : r/learnprogramming, r/mainframe
+- **Reddit** : r/devops, r/mainframe
 - **LinkedIn** : Partage avec ton réseau
-- **Twitter** : Tweet avec #JCL #Mainframe #FreeEducation
-
----
-
-## 💎 100% Gratuit • Pour Tous • À Jamais
-
-**🔗 Learning Schooling Foundation**  
-**📧 learning.schooling.foundation@proton.me**  
-**🌍 Pour Tous • Partout • Toujours Gratuit**
+- **Twitter** : #DevOps #Mainframe #FreeEducation
 
 ---
 
 ## Pour Qui On Fait Ça ?
 
-**Pour le dev de 22 ans à Kinshasa qui rêve de travailler en banque.**  
-**Pour la mère célibataire à São Paulo qui se reconvertit.**  
-**Pour l'étudiant tunisien sans les €3000 d'une formation IBM.**  
-**Pour tous ceux que le système exclut par le prix.**
+**Pour le dev COBOL de 28 ans qui veut moderniser son entreprise.**  
+**Pour l'ingénieur DevOps qui découvre le mainframe.**  
+**Pour le tech lead qui doit implémenter CI/CD sur z/OS.**  
+**Pour tous ceux qui veulent combiner stabilité mainframe et vitesse DevOps.**
 
-**Le savoir mainframe élite ne devrait PAS coûter des milliers d'euros.**  
-**Il devrait être gratuit. Pour toujours.**
+**Le DevOps mainframe ne devrait PAS coûter des formations à $5000.**  
+**Il devrait être accessible. Gratuit. Pour tous.**
 
 **C'est notre mission. 💚**
 
@@ -1291,7 +1275,7 @@ Plus de gens connaissent JCL = Plus de gens peuvent décrocher des jobs stables 
 **Le savoir est libre.**  
 **Tu l'es maintenant aussi.**
 
-**Go change the world. 🚀**
+**Go modernize the world. 🚀**
 
 ---
 
@@ -1299,17 +1283,17 @@ Plus de gens connaissent JCL = Plus de gens peuvent décrocher des jobs stables 
 
 | Date | Version | Changements |
 |------|---------|-------------|
-| 2025-01-15 | 1.0.0 | Release initiale complète |
-| - | - | 25 chapitres |
-| - | - | 200+ exemples |
-| - | - | 50+ exercices |
-| - | - | 20+ projets |
+| 2025-01-15 | 1.0.0 | Release initiale |
+| - | - | 21 chapitres |
+| - | - | 150+ exemples |
+| - | - | 30+ scripts |
+| - | - | 10+ pipelines |
 
 ---
 
-**🎓 Prêt à devenir un expert JCL ?**  
-**📖 Ouvre la Partie 1 et commence ton voyage !**
+**🎓 Prêt à devenir un expert DevOps Mainframe ?**  
+**📖 Ouvre le guide et commence ton voyage !**
 
 ---
 
-**FIN DU README - DÉBUT DE TON AVENTURE JCL** 🚀✨
+**FIN DU README - DÉBUT DE TON AVENTURE DEVOPS MAINFRAME** 🚀✨
